@@ -13,7 +13,7 @@ class Animal {
 
 class Dog extends Animal {
 	purr(){
-		console.log("The " + this.species + "purrs.")
+		console.log("The " + this.species + "purrs.");
 	}
 }
 
@@ -24,6 +24,4 @@ class Cat extends Animal {
 }
 
 // Do not change the code below this line
-window.Animal = Animal;
-window.Dog = Dog;
-window.Cat = Cat;
+
